@@ -7,6 +7,7 @@ body {
     background: linear-gradient(to right, #2360af 0%,#82d8f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2360af', endColorstr='#82d8f2',GradientType=1 ); /* IE6-9 */
     font-family: Krub, Arial, sans-serif;
+    color: tomato;
 }
 
 h1 {
@@ -22,14 +23,19 @@ p {
 li {
     font-size: 25px;
     list-style-type: none;
-    float: right;
     margin-right: 20px;
+    float: right;
 }
 
 main {
     text-align: center;
 }
 
-header {
+nav {
     text-align: right;
+    display: inline;
+}
+
+a {
+    color: tomato
 }
