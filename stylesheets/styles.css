@@ -1,6 +1,5 @@
 
 
-
 body {
     background: #2360af; /* Old browsers */
     background: -moz-linear-gradient(left, #2360af 0%, #82d8f2 100%); /* FF3.6-15 */
@@ -12,12 +11,25 @@ body {
 
 h1 {
     font-size: 40px;
+    border-bottom: solid black 1px;
 }
 
 p {
     font-size: 20px;
+    font-weight: bold;
 }
 
 li {
     font-size: 25px;
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    text-align: right;
 }
