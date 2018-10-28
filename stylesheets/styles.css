@@ -10,3 +10,14 @@ body {
     font-family: Krub, Arial, sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 25px;
+}
